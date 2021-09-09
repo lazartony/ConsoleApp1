@@ -32,6 +32,30 @@ namespace ConsoleApp1
         }
         static void Main(string[] args)
         {
+            Car car = new Car();
+
+            car.Manufacturer = "Manufacturer";
+            car.Model = "Model";
+            car.Type = "Type";
+            car.Color = "Color";
+            car.IsFWD = true;
+            car.NumAirBags = 4;
+            car.MaxPower = 150;
+            car.WheelBase = 10;
+            car.TyreSize = 10;
+            car.NumValves = 10;
+
+            Console.WriteLine(car.Manufacturer);
+            Console.WriteLine(car.Model);
+            Console.WriteLine(car.Type);
+            Console.WriteLine(car.Color);
+            Console.WriteLine(car.IsFWD);
+            Console.WriteLine(car.NumAirBags);
+            Console.WriteLine(car.MaxPower);
+            Console.WriteLine(car.WheelBase);
+            Console.WriteLine(car.TyreSize);
+            Console.WriteLine(car.NumValves);
+
             int i = 3, j = 5;
             if (i < j)
             {
