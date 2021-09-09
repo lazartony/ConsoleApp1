@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
 	public class Car
 	{
-		public string manufacturer = string.Empty;
+		private string manufacturer = string.Empty;
 		private string model = string.Empty;
 		private string type = string.Empty;
 		private string color = string.Empty;
